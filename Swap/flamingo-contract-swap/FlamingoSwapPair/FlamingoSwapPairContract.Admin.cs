@@ -30,14 +30,14 @@ namespace FlamingoSwapPair
 
 
         [DisplayName("symbol")]
-        public static string Symbol() => "FLP-fWBTC-fUSDT"; //symbol of the token
+        public static string Symbol() => "FLP-Symbol"; //symbol of the token
 
         #region tokenA
-        [InitialValue("0xd6abe115ecb75e1fa0b42f5e85934ce8c1ae2893", Neo.SmartContract.ContractParameterType.Hash160)] //bENO
+        [InitialValue("0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa", Neo.SmartContract.ContractParameterType.Hash160)] //bENO
         static readonly UInt160 TokenA = default;
         #endregion
 
-        [InitialValue("0xcd48b160c1bbc9d74997b803b9a7ad50a4bef020", Neo.SmartContract.ContractParameterType.Hash160)]
+        [InitialValue("0xbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb", Neo.SmartContract.ContractParameterType.Hash160)]
         static readonly UInt160 TokenB = default;
 
 
